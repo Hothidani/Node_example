@@ -11,7 +11,7 @@ const server = http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
 
    // Send the response body "Hello World"
-    res.end('Hello World nha nha nha\n');
+    res.end('Hello World nha nha \n');
 });
 
 // Prints a log once the server starts listening
